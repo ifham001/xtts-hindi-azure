@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Model weights (downloaded at runtime, NOT committed)
+models/
+*.pth
+*.bin
+*.safetensors
+
+# Audio outputs
+*.wav
+!samples/*.wav
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
